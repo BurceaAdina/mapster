@@ -3,7 +3,6 @@ using Mapster.Rendering;
 using SixLabors.ImageSharp;
 
 namespace Mapster.Service.Endpoints;
-
 internal class TileEndpoint : IDisposable
 {
     private readonly DataFile _mapData;
